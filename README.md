@@ -129,4 +129,11 @@ Telemetry data will flow from the simulated devices through Cloud IoT Core to yo
 
 11. Analyze the Sensor Data Using BigQuery
 
+SELECT timestamp, device, temperature from iotlabdataset.sensordata
+ORDER BY timestamp DESC
+LIMIT 100
+
+
+12. Happy Coding
+
 
